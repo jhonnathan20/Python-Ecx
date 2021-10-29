@@ -2,8 +2,7 @@
 Python's index method finds the index of the first item in a list, 
 but what if there are multiple instances of that item? 
 
-Your goal for this challenge is to write a Python function 
-to find the indices for all items in a list that are equal to a given value. 
+Your goal is to write a Python function  to find the indices for all items in a list that are equal to a given value. 
 
 -It should accept two input parameters; the list to search and the value you're searching for. 
 
@@ -29,7 +28,6 @@ The resulting output is a list of lists, containing those indices.
 >>index_all(example, 2)
 [[0,0,1], [0,1], [1,1]]
 
-VER IMAGEN DE EXPLICAION
 
 """
 lista = [[[1,2,3], 2, [1,3]], [1,2,3], 2, 4]
